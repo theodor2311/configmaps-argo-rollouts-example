@@ -1,3 +1,3 @@
-module github.com/kostis-codefresh/configmaps-argol-rollouts-example
+module github.com/kostis-codefresh/configmaps-example
 
 go 1.17

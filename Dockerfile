@@ -7,8 +7,8 @@ COPY . .
 RUN CGO_ENABLED=0 GOOS=linux go build 
 
 FROM scratch
-COPY --from=build-env /tmp/simple-go-app/gitops-promotion-source-code /app/gitops-promotion-source-code
+COPY --from=build-env /tmp/simple-go-app/configmaps-example /app/configmaps-example
 
 
 EXPOSE 8080
-CMD ["/app/gitops-promotion-source-code"]
+CMD ["/app/configmaps-example"]
