@@ -13,7 +13,7 @@ configurations:
 configMapGenerator:
 - name: my-settings
   literals: 
-  - APP_VERSION=1.3
+  - APP_VERSION=1.4
   - ENV="asia-staging" 
   - ENV_TYPE="non-prod" 
   - REGION="asia" 
